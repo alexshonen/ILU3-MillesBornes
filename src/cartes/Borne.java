@@ -12,4 +12,8 @@ public class Borne extends Carte {
 		return km;
 	}
 
+	@Override
+	public String toString() {
+		return "Borne : vous avancez de " + km + " bornes !\n";
+	}
 }

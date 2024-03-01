@@ -7,4 +7,8 @@ public class FinLimite extends Limite {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public String toString() {
+		return "Fin de Limite de Vitesse : Recouvre la carte Limite de Vitesse.\n";
+	}	
 }
